@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		448D36D12CDAA76B007B24D3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 448D36D02CDAA76B007B24D3 /* FirebaseDatabase */; };
+		448D36D32CDAA76B007B24D3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 448D36D22CDAA76B007B24D3 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A491992CDA83E7007E7D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A4917B2CDA83E6007E7D7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A491822CDA83E6007E7D7F;
+			remoteInfo = Sportnetera;
+		};
+		44A491A32CDA83E7007E7D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A4917B2CDA83E6007E7D7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A491822CDA83E6007E7D7F;
+			remoteInfo = Sportnetera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A491832CDA83E6007E7D7F /* Sportnetera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportnetera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A491982CDA83E7007E7D7F /* SportneteraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportneteraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A491A22CDA83E7007E7D7F /* SportneteraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportneteraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		44A491852CDA83E6007E7D7F /* Sportnetera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sportnetera;
+			sourceTree = "<group>";
+		};
+		44A4919B2CDA83E7007E7D7F /* SportneteraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SportneteraTests;
+			sourceTree = "<group>";
+		};
+		44A491A52CDA83E7007E7D7F /* SportneteraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SportneteraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A491802CDA83E6007E7D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448D36D12CDAA76B007B24D3 /* FirebaseDatabase in Frameworks */,
+				448D36D32CDAA76B007B24D3 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A491952CDA83E7007E7D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A4919F2CDA83E7007E7D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A4917A2CDA83E6007E7D7F = {
+			isa = PBXGroup;
+			children = (
+				44A491852CDA83E6007E7D7F /* Sportnetera */,
+				44A4919B2CDA83E7007E7D7F /* SportneteraTests */,
+				44A491A52CDA83E7007E7D7F /* SportneteraUITests */,
+				44A491B72CDA876A007E7D7F /* Frameworks */,
+				44A491842CDA83E6007E7D7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A491842CDA83E6007E7D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A491832CDA83E6007E7D7F /* Sportnetera.app */,
+				44A491982CDA83E7007E7D7F /* SportneteraTests.xctest */,
+				44A491A22CDA83E7007E7D7F /* SportneteraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A491B72CDA876A007E7D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A491822CDA83E6007E7D7F /* Sportnetera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A491AC2CDA83E7007E7D7F /* Build configuration list for PBXNativeTarget "Sportnetera" */;
+			buildPhases = (
+				44A4917F2CDA83E6007E7D7F /* Sources */,
+				44A491802CDA83E6007E7D7F /* Frameworks */,
+				44A491812CDA83E6007E7D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				44A491852CDA83E6007E7D7F /* Sportnetera */,
+			);
+			name = Sportnetera;
+			packageProductDependencies = (
+				448D36D02CDAA76B007B24D3 /* FirebaseDatabase */,
+				448D36D22CDAA76B007B24D3 /* FirebaseStorage */,
+			);
+			productName = Sportnetera;
+			productReference = 44A491832CDA83E6007E7D7F /* Sportnetera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A491972CDA83E7007E7D7F /* SportneteraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A491AF2CDA83E7007E7D7F /* Build configuration list for PBXNativeTarget "SportneteraTests" */;
+			buildPhases = (
+				44A491942CDA83E7007E7D7F /* Sources */,
+				44A491952CDA83E7007E7D7F /* Frameworks */,
+				44A491962CDA83E7007E7D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A4919A2CDA83E7007E7D7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				44A4919B2CDA83E7007E7D7F /* SportneteraTests */,
+			);
+			name = SportneteraTests;
+			packageProductDependencies = (
+			);
+			productName = SportneteraTests;
+			productReference = 44A491982CDA83E7007E7D7F /* SportneteraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44A491A12CDA83E7007E7D7F /* SportneteraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A491B22CDA83E7007E7D7F /* Build configuration list for PBXNativeTarget "SportneteraUITests" */;
+			buildPhases = (
+				44A4919E2CDA83E7007E7D7F /* Sources */,
+				44A4919F2CDA83E7007E7D7F /* Frameworks */,
+				44A491A02CDA83E7007E7D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A491A42CDA83E7007E7D7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				44A491A52CDA83E7007E7D7F /* SportneteraUITests */,
+			);
+			name = SportneteraUITests;
+			packageProductDependencies = (
+			);
+			productName = SportneteraUITests;
+			productReference = 44A491A22CDA83E7007E7D7F /* SportneteraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A4917B2CDA83E6007E7D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					44A491822CDA83E6007E7D7F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					44A491972CDA83E7007E7D7F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 44A491822CDA83E6007E7D7F;
+					};
+					44A491A12CDA83E7007E7D7F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 44A491822CDA83E6007E7D7F;
+					};
+				};
+			};
+			buildConfigurationList = 44A4917E2CDA83E6007E7D7F /* Build configuration list for PBXProject "Sportnetera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A4917A2CDA83E6007E7D7F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				448D36CF2CDAA76B007B24D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 44A491842CDA83E6007E7D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A491822CDA83E6007E7D7F /* Sportnetera */,
+				44A491972CDA83E7007E7D7F /* SportneteraTests */,
+				44A491A12CDA83E7007E7D7F /* SportneteraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A491812CDA83E6007E7D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A491962CDA83E7007E7D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A491A02CDA83E7007E7D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A4917F2CDA83E6007E7D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A491942CDA83E7007E7D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A4919E2CDA83E7007E7D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A4919A2CDA83E7007E7D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A491822CDA83E6007E7D7F /* Sportnetera */;
+			targetProxy = 44A491992CDA83E7007E7D7F /* PBXContainerItemProxy */;
+		};
+		44A491A42CDA83E7007E7D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A491822CDA83E6007E7D7F /* Sportnetera */;
+			targetProxy = 44A491A32CDA83E7007E7D7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44A491AA2CDA83E7007E7D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44A491AB2CDA83E7007E7D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A491AD2CDA83E7007E7D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sportnetera/Preview Content\"";
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softpol.sportnetera.Sportnetera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44A491AE2CDA83E7007E7D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sportnetera/Preview Content\"";
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softpol.sportnetera.Sportnetera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44A491B02CDA83E7007E7D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softpol.sportnetera.SportneteraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportnetera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sportnetera";
+			};
+			name = Debug;
+		};
+		44A491B12CDA83E7007E7D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softpol.sportnetera.SportneteraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportnetera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sportnetera";
+			};
+			name = Release;
+		};
+		44A491B32CDA83E7007E7D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softpol.sportnetera.SportneteraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sportnetera;
+			};
+			name = Debug;
+		};
+		44A491B42CDA83E7007E7D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softpol.sportnetera.SportneteraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sportnetera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A4917E2CDA83E6007E7D7F /* Build configuration list for PBXProject "Sportnetera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A491AA2CDA83E7007E7D7F /* Debug */,
+				44A491AB2CDA83E7007E7D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A491AC2CDA83E7007E7D7F /* Build configuration list for PBXNativeTarget "Sportnetera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A491AD2CDA83E7007E7D7F /* Debug */,
+				44A491AE2CDA83E7007E7D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A491AF2CDA83E7007E7D7F /* Build configuration list for PBXNativeTarget "SportneteraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A491B02CDA83E7007E7D7F /* Debug */,
+				44A491B12CDA83E7007E7D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A491B22CDA83E7007E7D7F /* Build configuration list for PBXNativeTarget "SportneteraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A491B32CDA83E7007E7D7F /* Debug */,
+				44A491B42CDA83E7007E7D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		448D36CF2CDAA76B007B24D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		448D36D02CDAA76B007B24D3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 448D36CF2CDAA76B007B24D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		448D36D22CDAA76B007B24D3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 448D36CF2CDAA76B007B24D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 44A4917B2CDA83E6007E7D7F /* Project object */;
+}

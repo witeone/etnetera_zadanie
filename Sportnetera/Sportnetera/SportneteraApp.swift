@@ -6,16 +6,25 @@
 //
 
 import SwiftUI
+import Firebase
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
 
 @main
 struct SportneteraApp: App {
-    let persistenceController = PersistenceController.shared
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @ObservedObject var router = Router()
 
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $router.navPath) {
-                ContentView()
+                DashboardView(viewModel: .init())
                     .navigationDestination(for: Router.Destination.self) { route in
                         switch route {
                         case .inputData:
@@ -25,7 +34,6 @@ struct SportneteraApp: App {
                         }
                     }
             }
-            .environment(\.managedObjectContext, persistenceController.container.viewContext)
             .environmentObject(router)
         }
     }

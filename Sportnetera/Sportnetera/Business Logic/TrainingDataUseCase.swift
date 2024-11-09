@@ -25,7 +25,7 @@ extension Worker: TrainingDataUseCaseType {
                 promise(.success(()))
             } else {
                 self.database.child("trainings/\(trainingData.id)").removeValue() { error, _ in
-                    if let error {
+                    if error != nil {
                         promise(.failure(.firebaseDeleteError))
                     } else {
                         promise(.success(()))

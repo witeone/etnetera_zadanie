@@ -55,9 +55,6 @@ struct DashboardView: View {
                         }
 
                     }
-//                    ToolbarItem(placement: .navigationBarTrailing) {
-//                        EditButton()
-//                    }
                     ToolbarItem {
                         Button(action: {
                             router.navigate(to: .inputData)

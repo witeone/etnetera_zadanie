@@ -20,7 +20,11 @@ class DashboardVM: CancellableVM, ObservableObject {
 
         isLoading = true
         businessLogic
-            .observe(object: RLMTrainingModel.self, holder: self, path: \.rlmToken)?
+            .observe(
+                object: RLMTrainingModel.self,
+                holder: self,
+                path: \.rlmToken
+            )?
             .compactMap { $0 }
             .receive(on: DispatchQueue.main)
             .sink { error in

@@ -8,26 +8,32 @@
 import SwiftUI
 
 struct DashboardListItemView: View {
-    var isRemote: Bool
-    var title: String
-    var date: String
+    var model: TrainingModel
     var body: some View {
         HStack {
             Circle()
                 .frame(width: 10, height: 10)
-                .foregroundStyle(isRemote ? .green : .yellow)
+                .foregroundStyle(model.isRemote ? .green : .yellow)
 
-            VStack(alignment: .leading) {
-                Text(title)
+            VStack(alignment: .leading, spacing: 8) {
+                Text(model.name)
                     .font(.headline)
 
-                Text(date)
+                Text(model.location)
+                    .font(.subheadline)
+
+                Text(Date(timeIntervalSince1970: Double(model.date / 1000)).formatted())
                     .font(.caption)
             }
+
+            Spacer()
+
+            Text("\(model.length) min")
+                .font(.title)
         }
     }
 }
 
 #Preview {
-    DashboardListItemView(isRemote: false, title: "name", date: Date().formatted())
+    DashboardListItemView(model: .init(id: "", name: "new", location: "home", length: 45, date: Date().millisecondsSince1970 * 1000, isRemote: true))
 }

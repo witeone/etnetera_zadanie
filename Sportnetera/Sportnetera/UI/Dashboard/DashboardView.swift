@@ -35,11 +35,7 @@ struct DashboardView: View {
             } else {
                 List {
                     ForEach(viewModel.data) { item in
-                        DashboardListItemView(
-                            isRemote: item.isRemote,
-                            title: item.name,
-                            date: Date(timeIntervalSince1970: Double(item.date / 1000)).formatted()
-                        )
+                        DashboardListItemView(model: item)
                     }
                     .onDelete(perform: viewModel.removeItems)
                 }
